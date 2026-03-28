@@ -2,7 +2,7 @@ package src;
 
 import java.io.Serializable;
 
-public class TestClassConflict implements Serializable {
+public class TestClass implements Serializable {
 
 	private int x,y;
 		public TestClass(int x, int y) {
@@ -10,7 +10,7 @@ public class TestClassConflict implements Serializable {
 		this.y = y;
 	}
 
-		public int getX() {
+		public int getXGitHubConflict() {
 		return x;
 	}
 
