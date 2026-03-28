@@ -9,8 +9,8 @@ public class TestClass implements Serializable {
 		this.x = x;
 		this.y = y;
 	}
-
-		public int getXLocalConflict() {
+		
+		public int getXGitHubConflict() {
 		return x;
 	}
 
@@ -25,6 +25,4 @@ public class TestClass implements Serializable {
 	public void setY(int y) {
 		this.y = y;
 	}
-
-
 }
