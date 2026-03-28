@@ -2,7 +2,7 @@ package src;
 
 import java.io.Serializable;
 
-public class TestClass implements Serializable {
+public class TestClassConflict implements Serializable {
 
 	private int x,y;
 		public TestClass(int x, int y) {
@@ -25,6 +25,4 @@ public class TestClass implements Serializable {
 	public void setY(int y) {
 		this.y = y;
 	}
-
-
 }
