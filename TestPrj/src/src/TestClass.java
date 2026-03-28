@@ -10,7 +10,7 @@ public class TestClass implements Serializable {
 		this.y = y;
 	}
 
-		public int getX() {
+		public int getXLocalConflict() {
 		return x;
 	}
 
