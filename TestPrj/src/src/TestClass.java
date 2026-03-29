@@ -14,7 +14,7 @@ public class TestClass implements Serializable {
 		return x;
 	}
 
-	public void setX(int x) {
+	public void setX(int x) { // test
 		this.x = x;
 	}
 
